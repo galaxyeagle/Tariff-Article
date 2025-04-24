@@ -28,14 +28,15 @@ const Header = () => {
                 'Executive Reports',
                 2000,
                 'All Documents',
-                2000,
+                4000,
               ]}
               wrapper="span"
-              speed={50}
+              speed={60}
               style={{ 
                 fontSize: '1.25rem', 
                 fontFamily: '"Roboto","Helvetica","Arial",sans-serif',
-                fontWeight: 500
+                fontWeight: 500,
+                color: 'yellow',
               }}
               repeat={Infinity}
               cursor={true}
